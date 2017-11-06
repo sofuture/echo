@@ -269,6 +269,7 @@ var (
 
 // New creates an instance of Echo.
 func New() (e *Echo) {
+	panic("really bad fork")
 	e = &Echo{
 		Server:    new(http.Server),
 		TLSServer: new(http.Server),
